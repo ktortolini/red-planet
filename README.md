@@ -3,12 +3,12 @@
 ![p5js](https://img.shields.io/badge/p5.js-d0bcd1?style=for-the-badge&logo=p5.js&logoColor=black)
 ![TypeScript](https://img.shields.io/badge/typescript-%23d0bcd1.svg?style=for-the-badge&logo=typescript&logoColor=black)
 
-![GitHub](https://img.shields.io/github/license/ktortolini/interactive-rose?style=flat-square)
-![GitHub language count](https://img.shields.io/github/languages/count/ktortolini/interactive-rose?style=flat-square)
-![GitHub top language](https://img.shields.io/github/languages/top/ktortolini/interactive-rose?color=green&style=flat-square)
+![GitHub](https://img.shields.io/github/license/ktortolini/waterfall?style=flat-square)
+![GitHub language count](https://img.shields.io/github/languages/count/ktortolini/waterfall?style=flat-square)
+![GitHub top language](https://img.shields.io/github/languages/top/ktortolini/waterfall?color=green&style=flat-square)
 
 
-# Interactive Rose
+# Waterfall
 
 ## 📜 _Description_
 
@@ -29,8 +29,8 @@ Just as a personal showcase, this repository will contain a portfolio of digital
 > 🦕 Outlined below are the steps which presuppose that the `Deno Runtime` environment is already installed and set up on your local machine. If this is not the case, please refer to the `Deno Runtime` installation and environment documentation before proceeding to clone this repository.
 
 ```bash
-git clone https://github.com/ktortolini/interactive-rose.git
-cd interactive-rose
+git clone https://github.com/ktortolini/waterfall.git
+cd waterfall
 deno cache serve.ts
 ```
 
@@ -40,7 +40,7 @@ Currently, the canvas displays a singular piece, purposefully chosen to introduc
 
 ## 🦕 _Deno Deployment_
 
-Encapsulated within the rapidly expanding _Deno Ecosystem_, which now boasts over 250,000 developers, this web application has been deployed on [Deno Deploy](https://interactive-rose.deno.dev/). As this repository grows to store more digital art the choice of `Deno Deploy` will offer a seamless experience for hosting and running `JS` and `TS` at the edge.
+...
 
 ## 💬 _Questions_
 
