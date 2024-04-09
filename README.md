@@ -3,12 +3,12 @@
 ![p5js](https://img.shields.io/badge/p5.js-d0bcd1?style=for-the-badge&logo=p5.js&logoColor=black)
 ![TypeScript](https://img.shields.io/badge/typescript-%23d0bcd1.svg?style=for-the-badge&logo=typescript&logoColor=black)
 
-![GitHub](https://img.shields.io/github/license/ktortolini/waterfall?style=flat-square)
-![GitHub language count](https://img.shields.io/github/languages/count/ktortolini/waterfall?style=flat-square)
-![GitHub top language](https://img.shields.io/github/languages/top/ktortolini/waterfall?color=green&style=flat-square)
+![GitHub](https://img.shields.io/github/license/ktortolini/red-planet?style=flat-square)
+![GitHub language count](https://img.shields.io/github/languages/count/ktortolini/red-planet?style=flat-square)
+![GitHub top language](https://img.shields.io/github/languages/top/ktortolini/red-planet?color=green&style=flat-square)
 
 
-# Waterfall
+# Red Planet
 
 ## 📜 _Description_
 
