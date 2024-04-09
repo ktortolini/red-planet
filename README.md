@@ -29,8 +29,8 @@ Just as a personal showcase, this repository will contain a portfolio of digital
 > 🦕 Outlined below are the steps which presuppose that the `Deno Runtime` environment is already installed and set up on your local machine. If this is not the case, please refer to the `Deno Runtime` installation and environment documentation before proceeding to clone this repository.
 
 ```bash
-git clone https://github.com/ktortolini/waterfall.git
-cd waterfall
+git clone https://github.com/ktortolini/red-planet.git
+cd red-planet
 deno cache serve.ts
 ```
 
