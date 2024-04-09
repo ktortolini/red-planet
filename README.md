@@ -36,7 +36,7 @@ deno cache serve.ts
 
 ## 🔥 _Usage Information_
 
-Currently, the canvas displays a singular piece, purposefully chosen to introduce the concept and beauty of generative art, which is created through a combination of coding and user interaction. First, a blank canvas greets you ready to come alive as soon as you move your mouse. Each movement triggers unique iterations of the generative artwork.
+Currently, the canvas displays a singular piece, purposefully chosen to introduce programmatic three dimensional art, which is created through a combination of `p5.js` and `WEBGL`. First, a blank canvas greets you with a rotating sphere that evokes the red surface of `Mars`. Each movement reveals more of the texture that wraps the sphere.
 
 ## 🦕 _Deno Deployment_
 
@@ -52,4 +52,4 @@ Yearning for more details on the _MACT_ degree program at Southern Methodist Uni
 
 ## 📜 _License_
 
-_Note_: Interactive Rose is licensed under the MIT License.
+_Note_: Red Planet is licensed under the MIT License.
