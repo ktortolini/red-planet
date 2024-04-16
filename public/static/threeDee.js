@@ -8,8 +8,36 @@
 let img;
 
 function preload() {
-   img = loadImage('/static/sample-texture.png');
+	img = loadImage('/static/sample-texture.png');
 }
+
+class Sphere {
+
+	constructor(xParam, yParam, zParam, rParam, wParam, sParam, fParam) {
+		this.x = xParam;
+		this.y = yParam;
+		this.z = zParam;
+		this.r = rParam;
+		this.w = wParam;
+		this.s = sParam;
+		this.f = fParam;
+	}
+
+	draw() {
+		stroke(this.s);
+		fill(this.f);
+		strokeWeight(this.w);
+
+		/**/
+
+		push();
+		texture(img);
+		translate(this.x, this.y, this.z);
+		sphere(this.r);
+		pop();
+	}
+
+};
 
 // deno-lint-ignore no-unused-vars
 function setup() {
@@ -31,32 +59,32 @@ function setup() {
 
 	smooth(3);
 
-   textureMode(NORMAL);
+	textureMode(NORMAL);
+
+	/**/
+
+	redPlanet = new Sphere(0, 0, 0, 300, 1, 255, 0);
+
 }
 
 // deno-lint-ignore no-unused-vars
 function draw() {
+	background(0, 0, 0);
 
-   background(0, 0, 0);
-	
 	/**/
-
-   texture(img);
-
-   /**/
 
 	translate(-width / 16, height / 16);
 
-   /**/
+	/**/
 
-   rotateX(0.3432);
+	rotateX(0.3432);
 
-   /**/
+	/**/
 
-   rotateY(millis() / 7000);
+	rotateY(millis() / 7000);
 
-   /**/
+	/**/
 
-   sphere(300);
+	redPlanet.draw();
+
 }
-
