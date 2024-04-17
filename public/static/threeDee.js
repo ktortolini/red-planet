@@ -46,7 +46,7 @@ function setup() {
 	 * see: {@link https://p5js.org/reference/#/p5/createCanvas}
 	 */
 
-	const canvas = createCanvas(800, 800, WEBGL);
+	const canvas = createCanvas(2048, 1080, WEBGL);
 
 	/**/
 
@@ -63,8 +63,32 @@ function setup() {
 
 	/**/
 
-	redPlanet = new Sphere(0, 0, 0, 300, 1, 255, 0);
+	redPlanetPrimo = new Sphere(0, 50, 90, 2732, 0.5, 0, 2);
 
+}
+
+function createCelestial(x, y, z, r) {
+	/**/
+
+	push();
+
+	translate(-width / x, height / y);
+
+	/**/
+
+	rotateX(r);
+
+	/**/
+
+	rotateY(millis() / z);
+
+	/**/
+
+	redPlanetPrimo.draw();
+
+	pop();
+
+	/**/
 }
 
 // deno-lint-ignore no-unused-vars
@@ -73,18 +97,8 @@ function draw() {
 
 	/**/
 
-	translate(-width / 16, height / 16);
-
-	/**/
-
-	rotateX(0.3432);
-
-	/**/
-
-	rotateY(millis() / 7000);
-
-	/**/
-
-	redPlanet.draw();
+	for (let i = 0; i < 99; i++) {
+		createCelestial(23 + (i / 7.25), 23 - (i / 7.25), 700 - Math.random(), 129.3452);
+	}
 
 }
