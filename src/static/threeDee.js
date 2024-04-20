@@ -72,7 +72,7 @@ function createCelestial(x, y, z, r) {
 
 	push();
 
-	translate(-width / x, height / y);
+	translate(width / x, height / y);
 
 	/**/
 
@@ -98,7 +98,7 @@ function draw() {
 	/**/
 
 	for (let i = 0; i < 99; i++) {
-		createCelestial(132 + (i / 4.25), 72 - (i / 9.25), 1 - Math.random(), 135.3452);
+		createCelestial(192 + (i / 1.25), 45 - (i / 12.25), 4 - Math.random(), 166.3452);
 	}
 
 }
