@@ -63,7 +63,7 @@ function setup() {
 
 	/**/
 
-	redPlanetPrimo = new Sphere(0, 0, 0, 356, 0.9, 45, 15);
+	redPlanetPrimo = new Sphere(0, 90, 10, 156, 0.9, 6, 15);
 
 }
 
@@ -98,7 +98,7 @@ function draw() {
 	/**/
 
 	for (let i = 0; i < 99; i++) {
-		createCelestial(22 + (i / 6.25), 27 - (i / 9.25), 1 - Math.random(), 135.3452);
+		createCelestial(132 + (i / 4.25), 72 - (i / 9.25), 1 - Math.random(), 135.3452);
 	}
 
 }
